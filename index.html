@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <style>
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+    </style>
+    <section id="navbar ">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a
+            class="navbar-brand position-relative fs-2 fw-semibold brand"
+            href=""
+            >24 CARROTS
+            <span
+              class="position-absolute top-100 start-50 translate-middle brand-span"
+              >CATERING & EVENTS</span
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-hover"
+                  href="#"
+                  role="button"
+                  data-bs-toggle=""
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-hover"
+                  href="#"
+                  role="button"
+                  data-bs-toggle=""
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-hover"
+                  href="#"
+                  role="button"
+                  data-bs-toggle=""
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+          
+        </div>
+      </nav>
+    </section>
+
+    <section class="testimonial-video-block">
+        <div class="container-fluid position-relative">
+            <div class="ratio ratio-16x9">
+                <video id="video-one" class="video " preload="metadata" autoplay="" muted="" playsinline="" loop="" poster="https://24carrots.com/wp-content/uploads/2023/08/chef.png" __idm_id__="6135809">
+                    <source src="https://24carrots.com/wp-content/video/24carrtos-home-banner.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h1 class="position-absolute top-50 start-50 translate-middle video-title">Simply the Finest</h1>
+              <img class="down-cheveron position-absolute start-50 translate-middle-x" src="https://24carrots.com/wp-content/themes/24carrots/img/icon/down-cheveron.svg" alt="">
+        </div>
+        
+</section>
+
+
+
+<section class="content-slider-section  ">
+   <div class="container-fluid content-slider">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="twentyfour-content">
+                <h3>Welcome to 24 carrots</h3>
+                <h2>Remarkable Catering &amp; Events</h2>
+                <p >24 Carrots is the premier catering and events company of choice in Southern California. We create remarkable experiences by offering the finest quality foods and providing unsurpassed personalized service, driven by our passion for life’s special&nbsp;occasions.</p>
+                <p ><a class="btn btn-primary" href="https://24carrots.com/contact/">GET IN&nbsp;TOUCH</a></p>
+             </div>
+        </div>
+        <div class="slider-image col col-lg-6">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-label="Slide 1"
+                    aria-current="true"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                    class=""
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                    class=""
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://24carrots.com/wp-content/uploads/2023/10/1.3-Holly-Sigafoos-Photo.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://24carrots.com/wp-content/uploads/2023/10/1.3-Holly-Sigafoos-Photo.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://24carrots.com/wp-content/uploads/2023/10/1.3-Holly-Sigafoos-Photo.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+   </div>
+</section>
+
+
+<section id="mobile-scroll-and-pc">
+    <section id="big-screen">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col col-lg-4">
+                    <div class="img-container">
+
+                        <img decoding="async" class="js-is-active" src="https://24carrots.com/wp-content/uploads/2023/08/wedding-scroll-cropped.jpg" alt="" data-slide-num="0" style="transform: translate(0%, 0px);">
+                    </div>
+
+                </div>
+                <div class="col left-twenty-four-content">
+                    <div class="row">
+                        
+
+                        <div class="col-xxl twentyfour-content" >
+                            <h2>Making Every Experience Magical</h2>
+                        </div>
+                        <div class="col-xxl twentyfour-content twentyfour-content-description ">
+
+                            <div class="row">
+                                <div class="col">
+                                <h1 class="left">Weddings</h1>
+                                <h3>Socials</h3>
+                                <h3>Corporate</h3>
+                                <h3>Venues</h3>
+                                
+                            </div>
+                            <div class="col">
+                                <h1>EXCEPTIONALS WEDDINGS</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sed velit officiis optio. Unde excepturi ratione nulla sint vitae provident nemo quod maxime eveniet eum? Dolores dicta omnis magnam fugiat?</p>
+                                <p ><a class="btn btn-primary" href="https://24carrots.com/contact/">GET IN&nbsp;TOUCH</a></p>
+
+                                
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
